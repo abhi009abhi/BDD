@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.0/a6105ad5c43dcc02c1cf87250111b0a7f1a7c2e6/selenium-api-2.53.0.jar" sourcepath="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.0/6883967bd79c186f4176bf1a5fbd88ba5179ceb2/selenium-api-2.53.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-leg-rc/2.53.0/bdabcf672449c588913ae32973dd8f7d54f510de/selenium-leg-rc-2.53.0.jar" sourcepath="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-leg-rc/2.53.0/ccd609507262bf7b4f188b998a3d71573728b21e/selenium-leg-rc-2.53.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.0/3706aa8a696d1b7938365a41ee7ca46309a0b2d/selenium-support-2.53.0.jar" sourcepath="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.0/cf9e33859401fb93d29181602b4811f2b7cc733d/selenium-support-2.53.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.53.0/7541a3948c3fb31122ee9633731e8103f3292b0a/selenium-chrome-driver-2.53.0.jar" sourcepath="C:/Users/Abhishek sharma/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.53.0/fcbb812ded0b7477ee3e428be4bd83b6d05f0497/selenium-chrome-driver-2.53.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

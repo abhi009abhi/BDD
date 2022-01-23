@@ -1,0 +1,354 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 442272200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I verify \"login\" is displayed on \"FlipKartLogin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartLogin",
+                  "offset": 34
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179131700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter \"7507218335\" in \"UserId\" field on \"FlipKartLogin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7507218335",
+                  "offset": 9
+                },
+                {
+                  "val": "UserId",
+                  "offset": 25
+                },
+                {
+                  "val": "FlipKartLogin",
+                  "offset": 43
+                }
+              ],
+              "location": "CommonFunctionsSteps.enterData(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236328700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"FlipKart009\" in \"Password\" field on \"FlipKartLogin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FlipKart009",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 26
+                },
+                {
+                  "val": "FlipKartLogin",
+                  "offset": 46
+                }
+              ],
+              "location": "CommonFunctionsSteps.enterData(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3633449200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initiate()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7247268400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchSF()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "flipkart-login;",
+        "after": [
+          {
+            "result": {
+              "duration": 2044870500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriverInstance()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8120500,
+              "error_message": "java.lang.AssertionError: Visiblity wait time over for Element null Message null\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat com.ms.common.Helpers.waitVisibiltyStandardized(Helpers.java:53)\r\n\tat com.ms.common.Helpers.elementDisplayed(Helpers.java:37)\r\n\tat com.ms.common.Helpers.verifyElementPresenceStandarized(Helpers.java:25)\r\n\tat com.ms.pages.FlipkartHomePage.verifyElement(FlipkartHomePage.java:73)\r\n\tat com.ms.stepDefinition.CommonFunctionsSteps.verifyElementDisplayed(CommonFunctionsSteps.java:48)\r\n\tat ✽.And I verify \"logon\" is displayed on \"FlipKartHome\" page(FlipkartLogin.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify \"logon\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "logon",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 34
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I verify \"top offer\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "top offer",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 38
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I verify \"grocery\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "grocery",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 36
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I verify \"fashion\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fashion",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 36
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I verify \"mobile\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 35
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I verify \"electronics\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "electronics",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 40
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I verify \"home\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 33
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I verify \"appliances\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "appliances",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 39
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I verify \"travel\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "travel",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 35
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I verify \"beauty and more\" is displayed on \"FlipKartHome\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beauty and more",
+                  "offset": 10
+                },
+                {
+                  "val": "FlipKartHome",
+                  "offset": 44
+                }
+              ],
+              "location": "CommonFunctionsSteps.verifyElementDisplayed(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@topMenu"
+          }
+        ]
+      }
+    ],
+    "name": "FlipKart Login",
+    "description": "",
+    "id": "flipkart-login",
+    "keyword": "Feature",
+    "uri": "FlipkartLogin.feature"
+  }
+]
